@@ -1,0 +1,11 @@
+@import "colors.scss";
+@import "variables.scss";
+
+.input {
+  padding: 10px 15px;
+  width: calc(100% - #{$label-width});
+  &:disabled {
+     background: $main;
+     text-transform: lowercase;
+   }
+}

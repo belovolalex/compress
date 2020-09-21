@@ -8,6 +8,7 @@
     "start": "node server/index.js",
     "server": "nodemon server/index",
     "client": "npm run serve --prefix client",
+    "server-install": "npm install",
     "client-install": "npm install --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },

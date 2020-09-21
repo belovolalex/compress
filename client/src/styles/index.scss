@@ -1,0 +1,14 @@
+@import "colors.scss";
+@import "variables.scss";
+@import "button";
+@import "input";
+
+
+.compressor, .input, .button {
+  font-weight: bold;
+  text-transform: capitalize;
+  border: 1px solid $main;
+  border-radius: $border-radius;
+  outline: none;
+  color: $dark;
+}

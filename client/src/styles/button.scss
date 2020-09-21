@@ -1,0 +1,19 @@
+@import "colors.scss";
+
+.button {
+  cursor: pointer;
+  padding: 10px 30px;
+  background: transparent;
+  margin-right: 10px;
+  &:active {
+    border: 1px solid $dark;
+  }
+}
+.button.button--clear {
+  background: $danger;
+  color: white;
+  border: 1px solid $danger;
+  &:active {
+    border: 1px solid red;
+  }
+}
