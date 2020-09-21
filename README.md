@@ -1,7 +1,7 @@
 # Project setup
 ```
 npm run server-install
-npm client-install
+npm run client-install
 ```
 
 ### Run app
